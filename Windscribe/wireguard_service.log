@@ -1,0 +1,3 @@
+{"tm": "2026-01-20 10:01:25.924", "lvl": "info", "mod": "wg_service", "msg": "Windscribe WireGuard service starting"}
+{"tm": "2026-01-20 10:01:25.925", "lvl": "info", "mod": "wg_service", "msg": "Starting WireGuard tunnel"}
+{"tm": "2026-01-20 10:01:53.400", "lvl": "info", "mod": "wg_service", "msg": "Windscribe WireGuard service stopped"}

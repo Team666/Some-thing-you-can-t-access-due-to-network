@@ -1,0 +1,35 @@
+{"tm": "2026-01-20 09:57:16.411", "lvl": "info", "mod": "installer", "msg": "Installing Windscribe version 2.19.7"}
+{"tm": "2026-01-20 09:57:16.411", "lvl": "info", "mod": "installer", "msg": "Command-line args: \"Windscribe_2.19.7.exe\" "}
+{"tm": "2026-01-20 09:57:16.415", "lvl": "info", "mod": "installer", "msg": "System language: en"}
+{"tm": "2026-01-20 09:57:16.415", "lvl": "info", "mod": "installer", "msg": "Using language: en"}
+{"tm": "2026-01-20 09:57:18.913", "lvl": "info", "mod": "installer", "msg": "Installing UninstallPrev ..."}
+{"tm": "2026-01-20 09:57:20.295", "lvl": "info", "mod": "installer", "msg": "taskkill executed on windscribeopenvpn.exe (128)"}
+{"tm": "2026-01-20 09:57:20.586", "lvl": "info", "mod": "installer", "msg": "taskkill executed on windscribewstunnel.exe (128)"}
+{"tm": "2026-01-20 09:57:20.907", "lvl": "info", "mod": "installer", "msg": "taskkill executed on windscribectrld.exe (128)"}
+{"tm": "2026-01-20 09:57:20.909", "lvl": "info", "mod": "installer", "msg": "UninstallPrev did not find a previous install and is skipping the uninstall step."}
+{"tm": "2026-01-20 09:57:20.909", "lvl": "info", "mod": "installer", "msg": "Installed UninstallPrev"}
+{"tm": "2026-01-20 09:57:20.909", "lvl": "info", "mod": "installer", "msg": "Installing Files ..."}
+{"tm": "2026-01-20 09:57:20.911", "lvl": "info", "mod": "installer", "msg": "Extracting resource: windscribe.7z"}
+{"tm": "2026-01-20 09:57:20.949", "lvl": "info", "mod": "installer", "msg": "Extracting files from windscribe.7z"}
+{"tm": "2026-01-20 09:57:20.949", "lvl": "info", "mod": "installer", "msg": "executeCmd: \"C:\\WINDOWS\\Temp\\WindscribeInstaller2150\\7zr.exe\" x -y -bb3 -bd -o\"C:\\Program Files\\Windscribe\" \"C:\\WINDOWS\\Temp\\WindscribeInstaller2150\\windscribe.7z\""}
+{"tm": "2026-01-20 09:57:22.013", "lvl": "info", "mod": "installer", "msg": "executeCmd output: \r\n7-Zip (r) 25.01 (x64) : Igor Pavlov : Public domain : 2025-08-03\r\n\r\nScanning the drive for archives:\r\n1 file, 31153231 bytes (30 MiB)\r\n\r\nExtracting archive: C:\\WINDOWS\\Temp\\WindscribeInstaller2150\\windscribe.7z\r\n--\r\nPath = C:\\WINDOWS\\Temp\\WindscribeInstaller2150\\windscribe.7z\r\nType = 7z\r\nPhysical Size = 31153231\r\nHeaders Size = 642\r\nMethod = LZMA2:24 BCJ\r\nSolid = +\r\nBlocks = 2\r\n\r\n- openvpndco\\\r\n- openvpndco\\win10\\\r\n- openvpndco\\win11\\\r\n- splittunnel\\\r\n- openvpndco\\win10\\ovpn-dco.cat\r\n- openvpndco\\win10\\ovpn-dco.inf\r\n- openvpndco\\win11\\ovpn-dco.cat\r\n- openvpndco\\win11\\ovpn-dco.inf\r\n- open_source_licenses.txt\r\n- qt.conf\r\n- splittunnel\\windscribesplittunnel.cat\r\n- splittunnel\\windscribesplittunnel.inf\r\n- devcon.exe\r\n- openvpndco\\win10\\ovpn-dco.sys\r\n- openvpndco\\win11\\ovpn-dco.sys\r\n- splittunnel\\windscribesplittunnel.sys\r\n- tapctl.exe\r\n- tunnel.dll\r\n- uninstall.exe\r\n- windscribe-cli.exe\r\n- Windscribe.exe\r\n- windscribectrld.exe\r\n- WindscribeInstallHelper.exe\r\n- windscribeopenvpn.exe\r\n- WindscribeService.exe\r\n- windscribewstunnel.exe\r\n- wintun.dll\r\n- wireguard.dll\r\n- WireguardService.exe\r\nEverything is Ok\r\n\r\nFolders: 4\r\nFiles: 25\r\nSize:       86623141\r\nCompressed: 31153231\r\n"}
+{"tm": "2026-01-20 09:57:22.013", "lvl": "info", "mod": "installer", "msg": "Installed Files"}
+{"tm": "2026-01-20 09:57:22.013", "lvl": "info", "mod": "installer", "msg": "Installing Service ..."}
+{"tm": "2026-01-20 09:57:24.884", "lvl": "info", "mod": "installer", "msg": "Installed Service"}
+{"tm": "2026-01-20 09:57:24.884", "lvl": "info", "mod": "installer", "msg": "Installing openvpndco ..."}
+{"tm": "2026-01-20 09:57:27.388", "lvl": "info", "mod": "installer", "msg": "OpenVPN DCO driver (oem49.inf) successfully added to the Windows driver store"}
+{"tm": "2026-01-20 09:57:27.388", "lvl": "info", "mod": "installer", "msg": "Installed openvpndco"}
+{"tm": "2026-01-20 09:57:27.388", "lvl": "info", "mod": "installer", "msg": "Installing splittunnel ..."}
+{"tm": "2026-01-20 09:57:27.395", "lvl": "info", "mod": "installer", "msg": "Installed splittunnel"}
+{"tm": "2026-01-20 09:57:27.395", "lvl": "info", "mod": "installer", "msg": "Installing uninstall_info ..."}
+{"tm": "2026-01-20 09:57:27.401", "lvl": "info", "mod": "installer", "msg": "Installed uninstall_info"}
+{"tm": "2026-01-20 09:57:27.401", "lvl": "info", "mod": "installer", "msg": "Installing icons ..."}
+{"tm": "2026-01-20 09:57:27.560", "lvl": "info", "mod": "installer", "msg": "Installed icons"}
+{"tm": "2026-01-20 09:57:27.560", "lvl": "info", "mod": "installer", "msg": "Deleting block resource UninstallPrev"}
+{"tm": "2026-01-20 09:57:27.560", "lvl": "info", "mod": "installer", "msg": "Deleting block resource Files"}
+{"tm": "2026-01-20 09:57:27.560", "lvl": "info", "mod": "installer", "msg": "Deleting block resource Service"}
+{"tm": "2026-01-20 09:57:27.560", "lvl": "info", "mod": "installer", "msg": "Deleting block resource openvpndco"}
+{"tm": "2026-01-20 09:57:27.560", "lvl": "info", "mod": "installer", "msg": "Deleting block resource splittunnel"}
+{"tm": "2026-01-20 09:57:27.560", "lvl": "info", "mod": "installer", "msg": "Deleting block resource uninstall_info"}
+{"tm": "2026-01-20 09:57:27.560", "lvl": "info", "mod": "installer", "msg": "Deleting block resource icons"}
+{"tm": "2026-01-20 09:57:27.561", "lvl": "info", "mod": "installer", "msg": "Launching Windscribe app"}

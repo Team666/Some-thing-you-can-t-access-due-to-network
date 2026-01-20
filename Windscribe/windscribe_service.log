@@ -1,0 +1,585 @@
+{"tm": "2026-01-20 09:57:24.785", "lvl": "info", "mod": "service", "msg": "Service started"}
+{"tm": "2026-01-20 09:57:24.802", "lvl": "error", "mod": "service", "msg": "Error opening registry key SOFTWARE\\Windscribe\\Windscribe2: 2"}
+{"tm": "2026-01-20 09:57:24.802", "lvl": "info", "mod": "service", "msg": "Firewall on boot is not enabled, turning off firewall"}
+{"tm": "2026-01-20 09:57:24.804", "lvl": "info", "mod": "service", "msg": "FirewallFilter::offImpl(), failed delete filters"}
+{"tm": "2026-01-20 09:57:30.649", "lvl": "debug", "mod": "service", "msg": "verifyWindscribeProcessPath signature verified for C:\\Program Files\\Windscribe\\Windscribe.exe in 94 ms"}
+{"tm": "2026-01-20 09:57:31.136", "lvl": "debug", "mod": "service", "msg": "setFirewallOnBoot: disabled"}
+{"tm": "2026-01-20 09:57:31.136", "lvl": "info", "mod": "service", "msg": "Firewall on boot disabled"}
+{"tm": "2026-01-20 09:57:31.137", "lvl": "debug", "mod": "service", "msg": "firewallActualState, Off"}
+{"tm": "2026-01-20 09:57:31.137", "lvl": "debug", "mod": "service", "msg": "executeTaskKill, cmd=C:\\WINDOWS\\system32\\taskkill.exe /f /t /im windscribeopenvpn.exe"}
+{"tm": "2026-01-20 09:57:31.413", "lvl": "debug", "mod": "service", "msg": "stopWireGuard"}
+{"tm": "2026-01-20 09:57:31.414", "lvl": "debug", "mod": "service", "msg": "disableDnsLeaksProtection"}
+{"tm": "2026-01-20 09:57:31.414", "lvl": "debug", "mod": "service", "msg": "DnsFirewall::disable(), no filters to delete"}
+{"tm": "2026-01-20 09:57:31.768", "lvl": "debug", "mod": "service", "msg": "sendConnectStatus: false"}
+{"tm": "2026-01-20 09:57:31.768", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState begin"}
+{"tm": "2026-01-20 09:57:31.768", "lvl": "debug", "mod": "service", "msg": "CalloutFilter::disable()"}
+{"tm": "2026-01-20 09:57:31.770", "lvl": "debug", "mod": "service", "msg": "HostnamesManager::disable(), begin"}
+{"tm": "2026-01-20 09:57:31.770", "lvl": "info", "mod": "service", "msg": "SplitTunnelServiceManager::stop()"}
+{"tm": "2026-01-20 09:57:31.795", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState end"}
+{"tm": "2026-01-20 09:57:31.796", "lvl": "debug", "mod": "service", "msg": "setSplitTunnelingSettings, isEnabled: false, isExclude: false, isAllowLanTraffic: false, cntApps: 0"}
+{"tm": "2026-01-20 09:57:31.796", "lvl": "debug", "mod": "service", "msg": "HostnamesManager::setSettings(), end"}
+{"tm": "2026-01-20 09:57:31.796", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState begin"}
+{"tm": "2026-01-20 09:57:31.796", "lvl": "debug", "mod": "service", "msg": "CalloutFilter::disable()"}
+{"tm": "2026-01-20 09:57:31.797", "lvl": "debug", "mod": "service", "msg": "HostnamesManager::disable(), begin"}
+{"tm": "2026-01-20 09:57:31.797", "lvl": "info", "mod": "service", "msg": "SplitTunnelServiceManager::stop()"}
+{"tm": "2026-01-20 09:57:31.819", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState end"}
+{"tm": "2026-01-20 09:57:31.825", "lvl": "debug", "mod": "service", "msg": "isIcsSupported"}
+{"tm": "2026-01-20 09:57:31.844", "lvl": "info", "mod": "service", "msg": "FirewallFilter::offImpl(), failed delete filters"}
+{"tm": "2026-01-20 09:57:31.844", "lvl": "debug", "mod": "service", "msg": "firewallOff"}
+{"tm": "2026-01-20 09:57:31.845", "lvl": "debug", "mod": "service", "msg": "setFirewallOnBoot: disabled"}
+{"tm": "2026-01-20 09:57:31.845", "lvl": "info", "mod": "service", "msg": "Firewall on boot disabled"}
+{"tm": "2026-01-20 09:57:31.845", "lvl": "debug", "mod": "service", "msg": "setSplitTunnelingSettings, isEnabled: false, isExclude: true, isAllowLanTraffic: false, cntApps: 0"}
+{"tm": "2026-01-20 09:57:31.845", "lvl": "debug", "mod": "service", "msg": "HostnamesManager::setSettings(), end"}
+{"tm": "2026-01-20 09:57:31.845", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState begin"}
+{"tm": "2026-01-20 09:57:31.845", "lvl": "debug", "mod": "service", "msg": "CalloutFilter::disable()"}
+{"tm": "2026-01-20 09:57:31.846", "lvl": "debug", "mod": "service", "msg": "HostnamesManager::disable(), begin"}
+{"tm": "2026-01-20 09:57:31.846", "lvl": "info", "mod": "service", "msg": "SplitTunnelServiceManager::stop()"}
+{"tm": "2026-01-20 09:57:31.872", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState end"}
+{"tm": "2026-01-20 09:57:51.096", "lvl": "debug", "mod": "service", "msg": "firewallActualState, Off"}
+{"tm": "2026-01-20 09:57:51.323", "lvl": "debug", "mod": "service", "msg": "firewallActualState, Off"}
+{"tm": "2026-01-20 09:57:51.502", "lvl": "debug", "mod": "service", "msg": "firewallActualState, Off"}
+{"tm": "2026-01-20 09:57:53.946", "lvl": "debug", "mod": "service", "msg": "firewallActualState, Off"}
+{"tm": "2026-01-20 09:57:53.950", "lvl": "debug", "mod": "service", "msg": "firewallActualState, Off"}
+{"tm": "2026-01-20 09:57:53.955", "lvl": "debug", "mod": "service", "msg": "sendConnectStatus: false"}
+{"tm": "2026-01-20 09:57:53.955", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState begin"}
+{"tm": "2026-01-20 09:57:53.955", "lvl": "debug", "mod": "service", "msg": "CalloutFilter::disable()"}
+{"tm": "2026-01-20 09:57:53.956", "lvl": "debug", "mod": "service", "msg": "HostnamesManager::disable(), begin"}
+{"tm": "2026-01-20 09:57:53.956", "lvl": "info", "mod": "service", "msg": "SplitTunnelServiceManager::stop()"}
+{"tm": "2026-01-20 09:57:53.975", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState end"}
+{"tm": "2026-01-20 09:58:17.244", "lvl": "debug", "mod": "service", "msg": "setFirewallOnBoot: disabled"}
+{"tm": "2026-01-20 09:58:17.245", "lvl": "info", "mod": "service", "msg": "Firewall on boot disabled"}
+{"tm": "2026-01-20 09:58:19.367", "lvl": "debug", "mod": "service", "msg": "setFirewallOnBoot: disabled"}
+{"tm": "2026-01-20 09:58:19.367", "lvl": "info", "mod": "service", "msg": "Firewall on boot disabled"}
+{"tm": "2026-01-20 09:58:21.832", "lvl": "debug", "mod": "service", "msg": "setFirewallOnBoot: disabled"}
+{"tm": "2026-01-20 09:58:21.832", "lvl": "info", "mod": "service", "msg": "Firewall on boot disabled"}
+{"tm": "2026-01-20 09:58:38.386", "lvl": "debug", "mod": "service", "msg": "setFirewallOnBoot: disabled"}
+{"tm": "2026-01-20 09:58:38.386", "lvl": "info", "mod": "service", "msg": "Firewall on boot disabled"}
+{"tm": "2026-01-20 09:58:39.142", "lvl": "debug", "mod": "service", "msg": "setFirewallOnBoot: disabled"}
+{"tm": "2026-01-20 09:58:39.142", "lvl": "info", "mod": "service", "msg": "Firewall on boot disabled"}
+{"tm": "2026-01-20 09:58:39.886", "lvl": "debug", "mod": "service", "msg": "setFirewallOnBoot: disabled"}
+{"tm": "2026-01-20 09:58:39.886", "lvl": "info", "mod": "service", "msg": "Firewall on boot disabled"}
+{"tm": "2026-01-20 09:58:40.505", "lvl": "debug", "mod": "service", "msg": "setFirewallOnBoot: disabled"}
+{"tm": "2026-01-20 09:58:40.505", "lvl": "info", "mod": "service", "msg": "Firewall on boot disabled"}
+{"tm": "2026-01-20 09:58:52.506", "lvl": "debug", "mod": "service", "msg": "setFirewallOnBoot: disabled"}
+{"tm": "2026-01-20 09:58:52.506", "lvl": "info", "mod": "service", "msg": "Firewall on boot disabled"}
+{"tm": "2026-01-20 09:58:54.828", "lvl": "debug", "mod": "service", "msg": "setFirewallOnBoot: disabled"}
+{"tm": "2026-01-20 09:58:54.828", "lvl": "info", "mod": "service", "msg": "Firewall on boot disabled"}
+{"tm": "2026-01-20 09:59:44.780", "lvl": "debug", "mod": "service", "msg": "sendConnectStatus: false"}
+{"tm": "2026-01-20 09:59:44.780", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState begin"}
+{"tm": "2026-01-20 09:59:44.780", "lvl": "debug", "mod": "service", "msg": "CalloutFilter::disable()"}
+{"tm": "2026-01-20 09:59:44.781", "lvl": "debug", "mod": "service", "msg": "HostnamesManager::disable(), begin"}
+{"tm": "2026-01-20 09:59:44.781", "lvl": "info", "mod": "service", "msg": "SplitTunnelServiceManager::stop()"}
+{"tm": "2026-01-20 09:59:44.802", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState end"}
+{"tm": "2026-01-20 09:59:44.803", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 09:59:45.189", "lvl": "debug", "mod": "service", "msg": "firewallActualState, Off"}
+{"tm": "2026-01-20 09:59:45.407", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState begin"}
+{"tm": "2026-01-20 09:59:45.408", "lvl": "debug", "mod": "service", "msg": "CalloutFilter::disable()"}
+{"tm": "2026-01-20 09:59:45.408", "lvl": "debug", "mod": "service", "msg": "HostnamesManager::disable(), begin"}
+{"tm": "2026-01-20 09:59:45.408", "lvl": "info", "mod": "service", "msg": "SplitTunnelServiceManager::stop()"}
+{"tm": "2026-01-20 09:59:45.427", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState end"}
+{"tm": "2026-01-20 09:59:45.427", "lvl": "debug", "mod": "service", "msg": "firewallOn, AllowLocalTraffic=false, IsCustomConfig=false"}
+{"tm": "2026-01-20 09:59:45.431", "lvl": "error", "mod": "service", "msg": "Property EnableAutoDoh not found for key SYSTEM\\CurrentControlSet\\Services\\Dnscache\\Parameters: 2"}
+{"tm": "2026-01-20 09:59:45.432", "lvl": "debug", "mod": "service", "msg": "Successfully set registry key SYSTEM\\CurrentControlSet\\Services\\Dnscache\\Parameters - EnableAutoDoh: 0"}
+{"tm": "2026-01-20 09:59:45.432", "lvl": "debug", "mod": "service", "msg": "Successfully set registry key SYSTEM\\CurrentControlSet\\Services\\Dnscache\\Parameters - EnableAutoDoh: 0"}
+{"tm": "2026-01-20 09:59:45.432", "lvl": "debug", "mod": "service", "msg": "disableDohSettings, success = true"}
+{"tm": "2026-01-20 09:59:45.432", "lvl": "debug", "mod": "service", "msg": "firewallActualState, On"}
+{"tm": "2026-01-20 09:59:45.466", "lvl": "info", "mod": "service", "msg": "FirewallFilter::offImpl(), all filters deleted"}
+{"tm": "2026-01-20 09:59:45.768", "lvl": "debug", "mod": "service", "msg": "firewallOn, AllowLocalTraffic=false, IsCustomConfig=false"}
+{"tm": "2026-01-20 09:59:45.769", "lvl": "debug", "mod": "service", "msg": "createOpenVpnAdapter: creating 'ovpn-dco' adapter"}
+{"tm": "2026-01-20 09:59:45.769", "lvl": "info", "mod": "service", "msg": "createDCOAdapter cmd = \"C:\\Program Files\\Windscribe\\tapctl.exe\" create --name WindscribeOpenVPN --hwid ovpn-dco"}
+{"tm": "2026-01-20 09:59:48.211", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 09:59:48.213", "lvl": "debug", "mod": "service", "msg": "enableDnsLeaksProtection"}
+{"tm": "2026-01-20 09:59:48.223", "lvl": "debug", "mod": "service", "msg": "Added DNS filter for 192.168.1.1"}
+{"tm": "2026-01-20 09:59:48.224", "lvl": "debug", "mod": "service", "msg": "Added DNS filter for 1.1.1.1"}
+{"tm": "2026-01-20 09:59:48.224", "lvl": "debug", "mod": "service", "msg": "Added DNS filter for 1.0.0.1"}
+{"tm": "2026-01-20 09:59:48.226", "lvl": "debug", "mod": "service", "msg": "Writing OpenVPN config"}
+{"tm": "2026-01-20 09:59:49.160", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 09:59:50.160", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 09:59:51.160", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 09:59:52.161", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 09:59:53.157", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 09:59:54.157", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 09:59:55.158", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 09:59:56.160", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 09:59:57.158", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 09:59:58.160", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 09:59:59.158", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:00:00.160", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:00:01.158", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:00:02.160", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:00:03.159", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:00:04.161", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:00:05.159", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:00:06.161", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:00:07.176", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:00:08.179", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:00:09.174", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:00:10.176", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:00:11.174", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:00:11.551", "lvl": "debug", "mod": "service", "msg": "firewallActualState, On"}
+{"tm": "2026-01-20 10:00:11.613", "lvl": "debug", "mod": "service", "msg": "disableDnsLeaksProtection"}
+{"tm": "2026-01-20 10:00:11.622", "lvl": "debug", "mod": "service", "msg": "DnsFirewall::disable(), all filters deleted"}
+{"tm": "2026-01-20 10:00:11.623", "lvl": "debug", "mod": "service", "msg": "disableDohSettings, success = false"}
+{"tm": "2026-01-20 10:00:11.624", "lvl": "debug", "mod": "service", "msg": "removeOpenVpnAdapter"}
+{"tm": "2026-01-20 10:00:11.624", "lvl": "info", "mod": "service", "msg": "removeDCOAdapter cmd = \"C:\\Program Files\\Windscribe\\tapctl.exe\" delete WindscribeOpenVPN"}
+{"tm": "2026-01-20 10:00:11.793", "lvl": "debug", "mod": "service", "msg": "firewallActualState, On"}
+{"tm": "2026-01-20 10:00:11.793", "lvl": "debug", "mod": "service", "msg": "removeWindscribeNetworkProfiles"}
+{"tm": "2026-01-20 10:00:11.832", "lvl": "info", "mod": "service", "msg": "FirewallFilter::offImpl(), all filters deleted"}
+{"tm": "2026-01-20 10:00:12.185", "lvl": "debug", "mod": "service", "msg": "firewallOn, AllowLocalTraffic=false, IsCustomConfig=false"}
+{"tm": "2026-01-20 10:00:12.187", "lvl": "debug", "mod": "service", "msg": "createOpenVpnAdapter: creating 'ovpn-dco' adapter"}
+{"tm": "2026-01-20 10:00:12.187", "lvl": "info", "mod": "service", "msg": "removeDCOAdapter cmd = \"C:\\Program Files\\Windscribe\\tapctl.exe\" delete WindscribeOpenVPN"}
+{"tm": "2026-01-20 10:00:12.238", "lvl": "error", "mod": "service", "msg": "removeDCOAdapter cmd failed: \"WindscribeOpenVPN\" adapter not found.\r\n"}
+{"tm": "2026-01-20 10:00:12.238", "lvl": "info", "mod": "service", "msg": "createDCOAdapter cmd = \"C:\\Program Files\\Windscribe\\tapctl.exe\" create --name WindscribeOpenVPN --hwid ovpn-dco"}
+{"tm": "2026-01-20 10:00:14.054", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:00:14.056", "lvl": "debug", "mod": "service", "msg": "enableDnsLeaksProtection"}
+{"tm": "2026-01-20 10:00:14.062", "lvl": "debug", "mod": "service", "msg": "Added DNS filter for 192.168.1.1"}
+{"tm": "2026-01-20 10:00:14.063", "lvl": "debug", "mod": "service", "msg": "Added DNS filter for 1.1.1.1"}
+{"tm": "2026-01-20 10:00:14.063", "lvl": "debug", "mod": "service", "msg": "Added DNS filter for 1.0.0.1"}
+{"tm": "2026-01-20 10:00:14.065", "lvl": "debug", "mod": "service", "msg": "Writing OpenVPN config"}
+{"tm": "2026-01-20 10:00:14.180", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:00:15.176", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:00:16.176", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:00:17.176", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:00:18.176", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:00:19.174", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:00:20.176", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:00:21.174", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:00:22.175", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:00:23.175", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:00:24.174", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:00:25.182", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:00:26.175", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:00:27.174", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:00:28.184", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:00:29.190", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:00:30.198", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:00:31.190", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:00:32.193", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:00:33.204", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:00:34.205", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:00:35.206", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:00:36.208", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:00:37.206", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:00:37.217", "lvl": "debug", "mod": "service", "msg": "disableDnsLeaksProtection"}
+{"tm": "2026-01-20 10:00:37.227", "lvl": "debug", "mod": "service", "msg": "DnsFirewall::disable(), all filters deleted"}
+{"tm": "2026-01-20 10:00:37.228", "lvl": "debug", "mod": "service", "msg": "Successfully deleted registry key value SYSTEM\\CurrentControlSet\\Services\\Dnscache\\Parameters - EnableAutoDoh: 0"}
+{"tm": "2026-01-20 10:00:37.228", "lvl": "debug", "mod": "service", "msg": "enableDohSettings, success = true"}
+{"tm": "2026-01-20 10:00:37.228", "lvl": "debug", "mod": "service", "msg": "removeOpenVpnAdapter"}
+{"tm": "2026-01-20 10:00:37.228", "lvl": "info", "mod": "service", "msg": "removeDCOAdapter cmd = \"C:\\Program Files\\Windscribe\\tapctl.exe\" delete WindscribeOpenVPN"}
+{"tm": "2026-01-20 10:00:37.435", "lvl": "debug", "mod": "service", "msg": "firewallActualState, On"}
+{"tm": "2026-01-20 10:00:37.435", "lvl": "debug", "mod": "service", "msg": "removeWindscribeNetworkProfiles"}
+{"tm": "2026-01-20 10:00:37.466", "lvl": "info", "mod": "service", "msg": "FirewallFilter::offImpl(), all filters deleted"}
+{"tm": "2026-01-20 10:00:37.814", "lvl": "debug", "mod": "service", "msg": "firewallOn, AllowLocalTraffic=false, IsCustomConfig=false"}
+{"tm": "2026-01-20 10:00:37.815", "lvl": "debug", "mod": "service", "msg": "setIPv6EnabledInFirewall, true"}
+{"tm": "2026-01-20 10:00:37.838", "lvl": "debug", "mod": "service", "msg": "sendConnectStatus: false"}
+{"tm": "2026-01-20 10:00:37.838", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState begin"}
+{"tm": "2026-01-20 10:00:37.838", "lvl": "debug", "mod": "service", "msg": "CalloutFilter::disable()"}
+{"tm": "2026-01-20 10:00:37.838", "lvl": "debug", "mod": "service", "msg": "HostnamesManager::disable(), begin"}
+{"tm": "2026-01-20 10:00:37.838", "lvl": "info", "mod": "service", "msg": "SplitTunnelServiceManager::stop()"}
+{"tm": "2026-01-20 10:00:37.859", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState end"}
+{"tm": "2026-01-20 10:00:39.365", "lvl": "debug", "mod": "service", "msg": "setFirewallOnBoot: disabled"}
+{"tm": "2026-01-20 10:00:39.365", "lvl": "info", "mod": "service", "msg": "Firewall on boot disabled"}
+{"tm": "2026-01-20 10:00:39.377", "lvl": "debug", "mod": "service", "msg": "sendConnectStatus: false"}
+{"tm": "2026-01-20 10:00:39.377", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState begin"}
+{"tm": "2026-01-20 10:00:39.377", "lvl": "debug", "mod": "service", "msg": "CalloutFilter::disable()"}
+{"tm": "2026-01-20 10:00:39.378", "lvl": "debug", "mod": "service", "msg": "HostnamesManager::disable(), begin"}
+{"tm": "2026-01-20 10:00:39.378", "lvl": "info", "mod": "service", "msg": "SplitTunnelServiceManager::stop()"}
+{"tm": "2026-01-20 10:00:39.400", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState end"}
+{"tm": "2026-01-20 10:00:39.400", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:00:39.443", "lvl": "debug", "mod": "service", "msg": "firewallActualState, On"}
+{"tm": "2026-01-20 10:00:39.447", "lvl": "error", "mod": "service", "msg": "Property EnableAutoDoh not found for key SYSTEM\\CurrentControlSet\\Services\\Dnscache\\Parameters: 2"}
+{"tm": "2026-01-20 10:00:39.448", "lvl": "debug", "mod": "service", "msg": "Successfully set registry key SYSTEM\\CurrentControlSet\\Services\\Dnscache\\Parameters - EnableAutoDoh: 0"}
+{"tm": "2026-01-20 10:00:39.448", "lvl": "debug", "mod": "service", "msg": "Successfully set registry key SYSTEM\\CurrentControlSet\\Services\\Dnscache\\Parameters - EnableAutoDoh: 0"}
+{"tm": "2026-01-20 10:00:39.448", "lvl": "debug", "mod": "service", "msg": "disableDohSettings, success = true"}
+{"tm": "2026-01-20 10:00:40.429", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:00:41.422", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:00:42.424", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:00:43.422", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:00:44.424", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:00:45.138", "lvl": "debug", "mod": "service", "msg": "firewallActualState, On"}
+{"tm": "2026-01-20 10:00:45.166", "lvl": "info", "mod": "service", "msg": "FirewallFilter::offImpl(), all filters deleted"}
+{"tm": "2026-01-20 10:00:45.462", "lvl": "debug", "mod": "service", "msg": "firewallOn, AllowLocalTraffic=false, IsCustomConfig=false"}
+{"tm": "2026-01-20 10:00:45.476", "lvl": "debug", "mod": "service", "msg": "startWireGuard: success = true"}
+{"tm": "2026-01-20 10:00:45.477", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:00:45.479", "lvl": "debug", "mod": "service", "msg": "configureWireGuard: success = true"}
+{"tm": "2026-01-20 10:00:46.422", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:00:47.068", "lvl": "debug", "mod": "service", "msg": "enableDnsLeaksProtection"}
+{"tm": "2026-01-20 10:00:47.110", "lvl": "debug", "mod": "service", "msg": "Added DNS filter for 192.168.1.1"}
+{"tm": "2026-01-20 10:00:47.110", "lvl": "debug", "mod": "service", "msg": "Added DNS filter for 1.1.1.1"}
+{"tm": "2026-01-20 10:00:47.111", "lvl": "debug", "mod": "service", "msg": "Added DNS filter for 1.0.0.1"}
+{"tm": "2026-01-20 10:00:47.425", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:00:47.896", "lvl": "debug", "mod": "service", "msg": "setIPv6EnabledInFirewall, false"}
+{"tm": "2026-01-20 10:00:47.913", "lvl": "debug", "mod": "service", "msg": "sendConnectStatus: true"}
+{"tm": "2026-01-20 10:00:47.913", "lvl": "debug", "mod": "service", "msg": "Routes::addRoute(), destIp=10.255.255.0, maskIp=255.255.255.0, gatewayIp=0.0.0.0"}
+{"tm": "2026-01-20 10:00:47.913", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState begin"}
+{"tm": "2026-01-20 10:00:47.913", "lvl": "debug", "mod": "service", "msg": "CalloutFilter::disable()"}
+{"tm": "2026-01-20 10:00:47.914", "lvl": "debug", "mod": "service", "msg": "HostnamesManager::disable(), begin"}
+{"tm": "2026-01-20 10:00:47.915", "lvl": "info", "mod": "service", "msg": "SplitTunnelServiceManager::stop()"}
+{"tm": "2026-01-20 10:00:47.933", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState end"}
+{"tm": "2026-01-20 10:00:47.934", "lvl": "debug", "mod": "service", "msg": "firewallActualState, On"}
+{"tm": "2026-01-20 10:00:47.946", "lvl": "info", "mod": "service", "msg": "FirewallFilter::offImpl(), all filters deleted"}
+{"tm": "2026-01-20 10:00:48.070", "lvl": "debug", "mod": "service", "msg": "firewallOn, AllowLocalTraffic=false, IsCustomConfig=false"}
+{"tm": "2026-01-20 10:00:48.071", "lvl": "debug", "mod": "service", "msg": "closeAllTcpConnections, KeepLocalSockets = false"}
+{"tm": "2026-01-20 10:00:48.079", "lvl": "debug", "mod": "service", "msg": "firewallActualState, On"}
+{"tm": "2026-01-20 10:01:24.283", "lvl": "debug", "mod": "service", "msg": "sendConnectStatus: false"}
+{"tm": "2026-01-20 10:01:24.283", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState begin"}
+{"tm": "2026-01-20 10:01:24.283", "lvl": "debug", "mod": "service", "msg": "CalloutFilter::disable()"}
+{"tm": "2026-01-20 10:01:24.284", "lvl": "debug", "mod": "service", "msg": "HostnamesManager::disable(), begin"}
+{"tm": "2026-01-20 10:01:24.284", "lvl": "info", "mod": "service", "msg": "SplitTunnelServiceManager::stop()"}
+{"tm": "2026-01-20 10:01:24.314", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState end"}
+{"tm": "2026-01-20 10:01:24.315", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:01:24.364", "lvl": "debug", "mod": "service", "msg": "firewallActualState, On"}
+{"tm": "2026-01-20 10:01:24.383", "lvl": "info", "mod": "service", "msg": "FirewallFilter::offImpl(), all filters deleted"}
+{"tm": "2026-01-20 10:01:24.598", "lvl": "debug", "mod": "service", "msg": "firewallOn, AllowLocalTraffic=false, IsCustomConfig=false"}
+{"tm": "2026-01-20 10:01:24.833", "lvl": "info", "mod": "service", "msg": "WireGuardController::deleteService - deleting WireGuard service"}
+{"tm": "2026-01-20 10:01:24.938", "lvl": "debug", "mod": "service", "msg": "stopWireGuard"}
+{"tm": "2026-01-20 10:01:24.939", "lvl": "debug", "mod": "service", "msg": "disableDnsLeaksProtection"}
+{"tm": "2026-01-20 10:01:24.955", "lvl": "debug", "mod": "service", "msg": "DnsFirewall::disable(), all filters deleted"}
+{"tm": "2026-01-20 10:01:24.977", "lvl": "debug", "mod": "service", "msg": "disableDohSettings, success = false"}
+{"tm": "2026-01-20 10:01:25.365", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:01:25.523", "lvl": "debug", "mod": "service", "msg": "firewallActualState, On"}
+{"tm": "2026-01-20 10:01:25.547", "lvl": "info", "mod": "service", "msg": "FirewallFilter::offImpl(), all filters deleted"}
+{"tm": "2026-01-20 10:01:25.881", "lvl": "debug", "mod": "service", "msg": "firewallOn, AllowLocalTraffic=false, IsCustomConfig=false"}
+{"tm": "2026-01-20 10:01:25.900", "lvl": "debug", "mod": "service", "msg": "startWireGuard: success = true"}
+{"tm": "2026-01-20 10:01:25.902", "lvl": "debug", "mod": "service", "msg": "configureWireGuard: success = true"}
+{"tm": "2026-01-20 10:01:26.359", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:01:26.711", "lvl": "debug", "mod": "service", "msg": "enableDnsLeaksProtection"}
+{"tm": "2026-01-20 10:01:26.791", "lvl": "debug", "mod": "service", "msg": "Added DNS filter for 192.168.1.1"}
+{"tm": "2026-01-20 10:01:26.794", "lvl": "debug", "mod": "service", "msg": "Added DNS filter for 1.1.1.1"}
+{"tm": "2026-01-20 10:01:26.798", "lvl": "debug", "mod": "service", "msg": "Added DNS filter for 1.0.0.1"}
+{"tm": "2026-01-20 10:01:27.065", "lvl": "debug", "mod": "service", "msg": "setIPv6EnabledInFirewall, false"}
+{"tm": "2026-01-20 10:01:27.065", "lvl": "debug", "mod": "service", "msg": "sendConnectStatus: true"}
+{"tm": "2026-01-20 10:01:27.066", "lvl": "debug", "mod": "service", "msg": "Routes::addRoute(), destIp=10.255.255.0, maskIp=255.255.255.0, gatewayIp=0.0.0.0"}
+{"tm": "2026-01-20 10:01:27.066", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState begin"}
+{"tm": "2026-01-20 10:01:27.066", "lvl": "debug", "mod": "service", "msg": "CalloutFilter::disable()"}
+{"tm": "2026-01-20 10:01:27.067", "lvl": "debug", "mod": "service", "msg": "HostnamesManager::disable(), begin"}
+{"tm": "2026-01-20 10:01:27.067", "lvl": "info", "mod": "service", "msg": "SplitTunnelServiceManager::stop()"}
+{"tm": "2026-01-20 10:01:27.088", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState end"}
+{"tm": "2026-01-20 10:01:27.088", "lvl": "debug", "mod": "service", "msg": "firewallActualState, On"}
+{"tm": "2026-01-20 10:01:27.100", "lvl": "info", "mod": "service", "msg": "FirewallFilter::offImpl(), all filters deleted"}
+{"tm": "2026-01-20 10:01:27.229", "lvl": "debug", "mod": "service", "msg": "firewallOn, AllowLocalTraffic=false, IsCustomConfig=false"}
+{"tm": "2026-01-20 10:01:27.230", "lvl": "debug", "mod": "service", "msg": "closeAllTcpConnections, KeepLocalSockets = false"}
+{"tm": "2026-01-20 10:01:53.152", "lvl": "debug", "mod": "service", "msg": "sendConnectStatus: false"}
+{"tm": "2026-01-20 10:01:53.152", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState begin"}
+{"tm": "2026-01-20 10:01:53.152", "lvl": "debug", "mod": "service", "msg": "CalloutFilter::disable()"}
+{"tm": "2026-01-20 10:01:53.153", "lvl": "debug", "mod": "service", "msg": "HostnamesManager::disable(), begin"}
+{"tm": "2026-01-20 10:01:53.153", "lvl": "info", "mod": "service", "msg": "SplitTunnelServiceManager::stop()"}
+{"tm": "2026-01-20 10:01:53.179", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState end"}
+{"tm": "2026-01-20 10:01:53.484", "lvl": "info", "mod": "service", "msg": "WireGuardController::deleteService - deleting WireGuard service"}
+{"tm": "2026-01-20 10:01:53.487", "lvl": "debug", "mod": "service", "msg": "stopWireGuard"}
+{"tm": "2026-01-20 10:01:53.487", "lvl": "debug", "mod": "service", "msg": "disableDnsLeaksProtection"}
+{"tm": "2026-01-20 10:01:53.494", "lvl": "debug", "mod": "service", "msg": "DnsFirewall::disable(), all filters deleted"}
+{"tm": "2026-01-20 10:01:53.496", "lvl": "debug", "mod": "service", "msg": "Successfully deleted registry key value SYSTEM\\CurrentControlSet\\Services\\Dnscache\\Parameters - EnableAutoDoh: 0"}
+{"tm": "2026-01-20 10:01:53.496", "lvl": "debug", "mod": "service", "msg": "enableDohSettings, success = true"}
+{"tm": "2026-01-20 10:01:53.497", "lvl": "debug", "mod": "service", "msg": "firewallActualState, On"}
+{"tm": "2026-01-20 10:01:53.527", "lvl": "info", "mod": "service", "msg": "FirewallFilter::offImpl(), all filters deleted"}
+{"tm": "2026-01-20 10:01:53.835", "lvl": "debug", "mod": "service", "msg": "firewallOn, AllowLocalTraffic=false, IsCustomConfig=false"}
+{"tm": "2026-01-20 10:01:53.835", "lvl": "debug", "mod": "service", "msg": "setIPv6EnabledInFirewall, true"}
+{"tm": "2026-01-20 10:01:53.844", "lvl": "debug", "mod": "service", "msg": "Ipv6Firewall::enableIPv6(), all filters deleted"}
+{"tm": "2026-01-20 10:01:53.874", "lvl": "debug", "mod": "service", "msg": "firewallActualState, On"}
+{"tm": "2026-01-20 10:01:53.887", "lvl": "info", "mod": "service", "msg": "FirewallFilter::offImpl(), all filters deleted"}
+{"tm": "2026-01-20 10:01:53.991", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState begin"}
+{"tm": "2026-01-20 10:01:53.991", "lvl": "debug", "mod": "service", "msg": "CalloutFilter::disable()"}
+{"tm": "2026-01-20 10:01:53.991", "lvl": "debug", "mod": "service", "msg": "HostnamesManager::disable(), begin"}
+{"tm": "2026-01-20 10:01:53.991", "lvl": "info", "mod": "service", "msg": "SplitTunnelServiceManager::stop()"}
+{"tm": "2026-01-20 10:01:54.019", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState end"}
+{"tm": "2026-01-20 10:01:54.019", "lvl": "debug", "mod": "service", "msg": "firewallOff"}
+{"tm": "2026-01-20 10:01:54.023", "lvl": "debug", "mod": "service", "msg": "sendConnectStatus: false"}
+{"tm": "2026-01-20 10:01:54.023", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState begin"}
+{"tm": "2026-01-20 10:01:54.023", "lvl": "debug", "mod": "service", "msg": "CalloutFilter::disable()"}
+{"tm": "2026-01-20 10:01:54.024", "lvl": "debug", "mod": "service", "msg": "HostnamesManager::disable(), begin"}
+{"tm": "2026-01-20 10:01:54.024", "lvl": "info", "mod": "service", "msg": "SplitTunnelServiceManager::stop()"}
+{"tm": "2026-01-20 10:01:54.045", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState end"}
+{"tm": "2026-01-20 10:01:59.909", "lvl": "debug", "mod": "service", "msg": "sendConnectStatus: false"}
+{"tm": "2026-01-20 10:01:59.909", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState begin"}
+{"tm": "2026-01-20 10:01:59.909", "lvl": "debug", "mod": "service", "msg": "CalloutFilter::disable()"}
+{"tm": "2026-01-20 10:01:59.910", "lvl": "debug", "mod": "service", "msg": "HostnamesManager::disable(), begin"}
+{"tm": "2026-01-20 10:01:59.910", "lvl": "info", "mod": "service", "msg": "SplitTunnelServiceManager::stop()"}
+{"tm": "2026-01-20 10:01:59.930", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState end"}
+{"tm": "2026-01-20 10:01:59.931", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:02:00.014", "lvl": "debug", "mod": "service", "msg": "firewallActualState, Off"}
+{"tm": "2026-01-20 10:02:00.246", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState begin"}
+{"tm": "2026-01-20 10:02:00.246", "lvl": "debug", "mod": "service", "msg": "CalloutFilter::disable()"}
+{"tm": "2026-01-20 10:02:00.246", "lvl": "debug", "mod": "service", "msg": "HostnamesManager::disable(), begin"}
+{"tm": "2026-01-20 10:02:00.246", "lvl": "info", "mod": "service", "msg": "SplitTunnelServiceManager::stop()"}
+{"tm": "2026-01-20 10:02:00.273", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState end"}
+{"tm": "2026-01-20 10:02:00.273", "lvl": "debug", "mod": "service", "msg": "firewallOn, AllowLocalTraffic=false, IsCustomConfig=false"}
+{"tm": "2026-01-20 10:02:00.278", "lvl": "error", "mod": "service", "msg": "Property EnableAutoDoh not found for key SYSTEM\\CurrentControlSet\\Services\\Dnscache\\Parameters: 2"}
+{"tm": "2026-01-20 10:02:00.279", "lvl": "debug", "mod": "service", "msg": "Successfully set registry key SYSTEM\\CurrentControlSet\\Services\\Dnscache\\Parameters - EnableAutoDoh: 0"}
+{"tm": "2026-01-20 10:02:00.279", "lvl": "debug", "mod": "service", "msg": "Successfully set registry key SYSTEM\\CurrentControlSet\\Services\\Dnscache\\Parameters - EnableAutoDoh: 0"}
+{"tm": "2026-01-20 10:02:00.279", "lvl": "debug", "mod": "service", "msg": "disableDohSettings, success = true"}
+{"tm": "2026-01-20 10:02:00.281", "lvl": "debug", "mod": "service", "msg": "firewallActualState, On"}
+{"tm": "2026-01-20 10:02:00.316", "lvl": "info", "mod": "service", "msg": "FirewallFilter::offImpl(), all filters deleted"}
+{"tm": "2026-01-20 10:02:00.624", "lvl": "debug", "mod": "service", "msg": "firewallOn, AllowLocalTraffic=false, IsCustomConfig=false"}
+{"tm": "2026-01-20 10:02:00.625", "lvl": "debug", "mod": "service", "msg": "createOpenVpnAdapter: creating 'ovpn-dco' adapter"}
+{"tm": "2026-01-20 10:02:00.625", "lvl": "info", "mod": "service", "msg": "removeDCOAdapter cmd = \"C:\\Program Files\\Windscribe\\tapctl.exe\" delete WindscribeOpenVPN"}
+{"tm": "2026-01-20 10:02:00.666", "lvl": "error", "mod": "service", "msg": "removeDCOAdapter cmd failed: \"WindscribeOpenVPN\" adapter not found.\r\n"}
+{"tm": "2026-01-20 10:02:00.667", "lvl": "info", "mod": "service", "msg": "createDCOAdapter cmd = \"C:\\Program Files\\Windscribe\\tapctl.exe\" create --name WindscribeOpenVPN --hwid ovpn-dco"}
+{"tm": "2026-01-20 10:02:02.536", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:02:02.538", "lvl": "debug", "mod": "service", "msg": "enableDnsLeaksProtection"}
+{"tm": "2026-01-20 10:02:02.545", "lvl": "debug", "mod": "service", "msg": "Added DNS filter for 192.168.1.1"}
+{"tm": "2026-01-20 10:02:02.545", "lvl": "debug", "mod": "service", "msg": "Added DNS filter for 1.1.1.1"}
+{"tm": "2026-01-20 10:02:02.545", "lvl": "debug", "mod": "service", "msg": "Added DNS filter for 1.0.0.1"}
+{"tm": "2026-01-20 10:02:02.547", "lvl": "debug", "mod": "service", "msg": "Writing OpenVPN config"}
+{"tm": "2026-01-20 10:02:02.985", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:02:03.984", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:02:04.986", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:02:05.985", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:02:06.988", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:02:07.995", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:02:08.987", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:02:09.984", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:02:10.984", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:02:11.983", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:02:12.277", "lvl": "debug", "mod": "service", "msg": "setFirewallOnBoot: disabled"}
+{"tm": "2026-01-20 10:02:12.277", "lvl": "info", "mod": "service", "msg": "Firewall on boot disabled"}
+{"tm": "2026-01-20 10:02:12.984", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:02:13.988", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:02:14.986", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:02:15.997", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:02:16.988", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:02:17.996", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:02:18.989", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:02:19.994", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:02:20.983", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:02:21.986", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:02:22.986", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:02:23.314", "lvl": "debug", "mod": "service", "msg": "firewallActualState, On"}
+{"tm": "2026-01-20 10:02:23.357", "lvl": "debug", "mod": "service", "msg": "disableDnsLeaksProtection"}
+{"tm": "2026-01-20 10:02:23.365", "lvl": "debug", "mod": "service", "msg": "DnsFirewall::disable(), all filters deleted"}
+{"tm": "2026-01-20 10:02:23.366", "lvl": "debug", "mod": "service", "msg": "disableDohSettings, success = false"}
+{"tm": "2026-01-20 10:02:23.366", "lvl": "debug", "mod": "service", "msg": "removeOpenVpnAdapter"}
+{"tm": "2026-01-20 10:02:23.366", "lvl": "info", "mod": "service", "msg": "removeDCOAdapter cmd = \"C:\\Program Files\\Windscribe\\tapctl.exe\" delete WindscribeOpenVPN"}
+{"tm": "2026-01-20 10:02:23.522", "lvl": "debug", "mod": "service", "msg": "firewallActualState, On"}
+{"tm": "2026-01-20 10:02:23.522", "lvl": "debug", "mod": "service", "msg": "removeWindscribeNetworkProfiles"}
+{"tm": "2026-01-20 10:02:23.555", "lvl": "info", "mod": "service", "msg": "FirewallFilter::offImpl(), all filters deleted"}
+{"tm": "2026-01-20 10:02:23.887", "lvl": "debug", "mod": "service", "msg": "firewallOn, AllowLocalTraffic=false, IsCustomConfig=false"}
+{"tm": "2026-01-20 10:02:23.888", "lvl": "debug", "mod": "service", "msg": "createOpenVpnAdapter: creating 'ovpn-dco' adapter"}
+{"tm": "2026-01-20 10:02:23.888", "lvl": "info", "mod": "service", "msg": "removeDCOAdapter cmd = \"C:\\Program Files\\Windscribe\\tapctl.exe\" delete WindscribeOpenVPN"}
+{"tm": "2026-01-20 10:02:23.934", "lvl": "error", "mod": "service", "msg": "removeDCOAdapter cmd failed: \"WindscribeOpenVPN\" adapter not found.\r\n"}
+{"tm": "2026-01-20 10:02:23.934", "lvl": "info", "mod": "service", "msg": "createDCOAdapter cmd = \"C:\\Program Files\\Windscribe\\tapctl.exe\" create --name WindscribeOpenVPN --hwid ovpn-dco"}
+{"tm": "2026-01-20 10:02:25.670", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:02:25.672", "lvl": "debug", "mod": "service", "msg": "enableDnsLeaksProtection"}
+{"tm": "2026-01-20 10:02:25.679", "lvl": "debug", "mod": "service", "msg": "Added DNS filter for 192.168.1.1"}
+{"tm": "2026-01-20 10:02:25.679", "lvl": "debug", "mod": "service", "msg": "Added DNS filter for 1.1.1.1"}
+{"tm": "2026-01-20 10:02:25.679", "lvl": "debug", "mod": "service", "msg": "Added DNS filter for 1.0.0.1"}
+{"tm": "2026-01-20 10:02:25.681", "lvl": "debug", "mod": "service", "msg": "Writing OpenVPN config"}
+{"tm": "2026-01-20 10:02:25.722", "lvl": "debug", "mod": "service", "msg": "setFirewallOnBoot: disabled"}
+{"tm": "2026-01-20 10:02:25.722", "lvl": "info", "mod": "service", "msg": "Firewall on boot disabled"}
+{"tm": "2026-01-20 10:02:25.984", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:02:26.984", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:02:27.986", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:02:28.967", "lvl": "debug", "mod": "service", "msg": "sendConnectStatus: false"}
+{"tm": "2026-01-20 10:02:28.967", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState begin"}
+{"tm": "2026-01-20 10:02:28.967", "lvl": "debug", "mod": "service", "msg": "CalloutFilter::disable()"}
+{"tm": "2026-01-20 10:02:28.968", "lvl": "debug", "mod": "service", "msg": "HostnamesManager::disable(), begin"}
+{"tm": "2026-01-20 10:02:28.968", "lvl": "info", "mod": "service", "msg": "SplitTunnelServiceManager::stop()"}
+{"tm": "2026-01-20 10:02:28.987", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState end"}
+{"tm": "2026-01-20 10:02:28.991", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:02:28.995", "lvl": "debug", "mod": "service", "msg": "disableDnsLeaksProtection"}
+{"tm": "2026-01-20 10:02:29.003", "lvl": "debug", "mod": "service", "msg": "DnsFirewall::disable(), all filters deleted"}
+{"tm": "2026-01-20 10:02:29.004", "lvl": "debug", "mod": "service", "msg": "Successfully deleted registry key value SYSTEM\\CurrentControlSet\\Services\\Dnscache\\Parameters - EnableAutoDoh: 0"}
+{"tm": "2026-01-20 10:02:29.004", "lvl": "debug", "mod": "service", "msg": "enableDohSettings, success = true"}
+{"tm": "2026-01-20 10:02:29.004", "lvl": "debug", "mod": "service", "msg": "removeOpenVpnAdapter"}
+{"tm": "2026-01-20 10:02:29.004", "lvl": "info", "mod": "service", "msg": "removeDCOAdapter cmd = \"C:\\Program Files\\Windscribe\\tapctl.exe\" delete WindscribeOpenVPN"}
+{"tm": "2026-01-20 10:02:29.137", "lvl": "debug", "mod": "service", "msg": "firewallActualState, On"}
+{"tm": "2026-01-20 10:02:29.137", "lvl": "debug", "mod": "service", "msg": "removeWindscribeNetworkProfiles"}
+{"tm": "2026-01-20 10:02:29.175", "lvl": "info", "mod": "service", "msg": "FirewallFilter::offImpl(), all filters deleted"}
+{"tm": "2026-01-20 10:02:29.517", "lvl": "debug", "mod": "service", "msg": "firewallOn, AllowLocalTraffic=false, IsCustomConfig=false"}
+{"tm": "2026-01-20 10:02:29.518", "lvl": "debug", "mod": "service", "msg": "setIPv6EnabledInFirewall, true"}
+{"tm": "2026-01-20 10:02:29.537", "lvl": "debug", "mod": "service", "msg": "firewallActualState, On"}
+{"tm": "2026-01-20 10:02:29.550", "lvl": "info", "mod": "service", "msg": "FirewallFilter::offImpl(), all filters deleted"}
+{"tm": "2026-01-20 10:02:29.677", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState begin"}
+{"tm": "2026-01-20 10:02:29.677", "lvl": "debug", "mod": "service", "msg": "CalloutFilter::disable()"}
+{"tm": "2026-01-20 10:02:29.678", "lvl": "debug", "mod": "service", "msg": "HostnamesManager::disable(), begin"}
+{"tm": "2026-01-20 10:02:29.678", "lvl": "info", "mod": "service", "msg": "SplitTunnelServiceManager::stop()"}
+{"tm": "2026-01-20 10:02:29.698", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState end"}
+{"tm": "2026-01-20 10:02:29.698", "lvl": "debug", "mod": "service", "msg": "firewallOff"}
+{"tm": "2026-01-20 10:02:29.702", "lvl": "debug", "mod": "service", "msg": "sendConnectStatus: false"}
+{"tm": "2026-01-20 10:02:29.702", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState begin"}
+{"tm": "2026-01-20 10:02:29.702", "lvl": "debug", "mod": "service", "msg": "CalloutFilter::disable()"}
+{"tm": "2026-01-20 10:02:29.702", "lvl": "debug", "mod": "service", "msg": "HostnamesManager::disable(), begin"}
+{"tm": "2026-01-20 10:02:29.702", "lvl": "info", "mod": "service", "msg": "SplitTunnelServiceManager::stop()"}
+{"tm": "2026-01-20 10:02:29.720", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState end"}
+{"tm": "2026-01-20 10:02:30.873", "lvl": "debug", "mod": "service", "msg": "sendConnectStatus: false"}
+{"tm": "2026-01-20 10:02:30.873", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState begin"}
+{"tm": "2026-01-20 10:02:30.873", "lvl": "debug", "mod": "service", "msg": "CalloutFilter::disable()"}
+{"tm": "2026-01-20 10:02:30.874", "lvl": "debug", "mod": "service", "msg": "HostnamesManager::disable(), begin"}
+{"tm": "2026-01-20 10:02:30.874", "lvl": "info", "mod": "service", "msg": "SplitTunnelServiceManager::stop()"}
+{"tm": "2026-01-20 10:02:30.890", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState end"}
+{"tm": "2026-01-20 10:02:30.891", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:02:30.931", "lvl": "debug", "mod": "service", "msg": "firewallActualState, Off"}
+{"tm": "2026-01-20 10:02:31.154", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState begin"}
+{"tm": "2026-01-20 10:02:31.154", "lvl": "debug", "mod": "service", "msg": "CalloutFilter::disable()"}
+{"tm": "2026-01-20 10:02:31.154", "lvl": "debug", "mod": "service", "msg": "HostnamesManager::disable(), begin"}
+{"tm": "2026-01-20 10:02:31.154", "lvl": "info", "mod": "service", "msg": "SplitTunnelServiceManager::stop()"}
+{"tm": "2026-01-20 10:02:31.174", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState end"}
+{"tm": "2026-01-20 10:02:31.174", "lvl": "debug", "mod": "service", "msg": "firewallOn, AllowLocalTraffic=false, IsCustomConfig=false"}
+{"tm": "2026-01-20 10:02:31.179", "lvl": "error", "mod": "service", "msg": "Property EnableAutoDoh not found for key SYSTEM\\CurrentControlSet\\Services\\Dnscache\\Parameters: 2"}
+{"tm": "2026-01-20 10:02:31.179", "lvl": "debug", "mod": "service", "msg": "Successfully set registry key SYSTEM\\CurrentControlSet\\Services\\Dnscache\\Parameters - EnableAutoDoh: 0"}
+{"tm": "2026-01-20 10:02:31.180", "lvl": "debug", "mod": "service", "msg": "Successfully set registry key SYSTEM\\CurrentControlSet\\Services\\Dnscache\\Parameters - EnableAutoDoh: 0"}
+{"tm": "2026-01-20 10:02:31.180", "lvl": "debug", "mod": "service", "msg": "disableDohSettings, success = true"}
+{"tm": "2026-01-20 10:02:31.181", "lvl": "debug", "mod": "service", "msg": "firewallActualState, On"}
+{"tm": "2026-01-20 10:02:31.213", "lvl": "info", "mod": "service", "msg": "FirewallFilter::offImpl(), all filters deleted"}
+{"tm": "2026-01-20 10:02:31.529", "lvl": "debug", "mod": "service", "msg": "firewallOn, AllowLocalTraffic=false, IsCustomConfig=false"}
+{"tm": "2026-01-20 10:02:31.530", "lvl": "debug", "mod": "service", "msg": "createOpenVpnAdapter: creating 'ovpn-dco' adapter"}
+{"tm": "2026-01-20 10:02:31.530", "lvl": "info", "mod": "service", "msg": "removeDCOAdapter cmd = \"C:\\Program Files\\Windscribe\\tapctl.exe\" delete WindscribeOpenVPN"}
+{"tm": "2026-01-20 10:02:31.569", "lvl": "error", "mod": "service", "msg": "removeDCOAdapter cmd failed: \"WindscribeOpenVPN\" adapter not found.\r\n"}
+{"tm": "2026-01-20 10:02:31.569", "lvl": "info", "mod": "service", "msg": "createDCOAdapter cmd = \"C:\\Program Files\\Windscribe\\tapctl.exe\" create --name WindscribeOpenVPN --hwid ovpn-dco"}
+{"tm": "2026-01-20 10:02:33.261", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:02:33.263", "lvl": "debug", "mod": "service", "msg": "enableDnsLeaksProtection"}
+{"tm": "2026-01-20 10:02:33.270", "lvl": "debug", "mod": "service", "msg": "Added DNS filter for 192.168.1.1"}
+{"tm": "2026-01-20 10:02:33.270", "lvl": "debug", "mod": "service", "msg": "Added DNS filter for 1.1.1.1"}
+{"tm": "2026-01-20 10:02:33.270", "lvl": "debug", "mod": "service", "msg": "Added DNS filter for 1.0.0.1"}
+{"tm": "2026-01-20 10:02:33.272", "lvl": "debug", "mod": "service", "msg": "Writing OpenVPN config"}
+{"tm": "2026-01-20 10:02:33.912", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:02:34.911", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:02:35.920", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 10:02:35.975", "lvl": "debug", "mod": "service", "msg": "executeSetMetric, cmd=C:\\WINDOWS\\system32\\netsh.exe int ipv4 set interface interface=\"WindscribeOpenVPN\" metric=4"}
+{"tm": "2026-01-20 10:02:36.118", "lvl": "debug", "mod": "service", "msg": "executeSetMetric, cmd=C:\\WINDOWS\\system32\\netsh.exe int ipv6 set interface interface=\"WindscribeOpenVPN\" metric=4"}
+{"tm": "2026-01-20 10:02:36.225", "lvl": "debug", "mod": "service", "msg": "setIPv6EnabledInFirewall, false"}
+{"tm": "2026-01-20 10:02:36.246", "lvl": "debug", "mod": "service", "msg": "sendConnectStatus: true"}
+{"tm": "2026-01-20 10:02:36.246", "lvl": "debug", "mod": "service", "msg": "Routes::addRoute(), destIp=10.255.255.0, maskIp=255.255.255.0, gatewayIp=10.133.212.1"}
+{"tm": "2026-01-20 10:02:36.246", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState begin"}
+{"tm": "2026-01-20 10:02:36.246", "lvl": "debug", "mod": "service", "msg": "CalloutFilter::disable()"}
+{"tm": "2026-01-20 10:02:36.247", "lvl": "debug", "mod": "service", "msg": "HostnamesManager::disable(), begin"}
+{"tm": "2026-01-20 10:02:36.247", "lvl": "info", "mod": "service", "msg": "SplitTunnelServiceManager::stop()"}
+{"tm": "2026-01-20 10:02:36.267", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState end"}
+{"tm": "2026-01-20 10:02:36.268", "lvl": "debug", "mod": "service", "msg": "firewallActualState, On"}
+{"tm": "2026-01-20 10:02:36.280", "lvl": "info", "mod": "service", "msg": "FirewallFilter::offImpl(), all filters deleted"}
+{"tm": "2026-01-20 10:02:36.418", "lvl": "debug", "mod": "service", "msg": "firewallOn, AllowLocalTraffic=false, IsCustomConfig=false"}
+{"tm": "2026-01-20 10:02:36.418", "lvl": "debug", "mod": "service", "msg": "closeAllTcpConnections, KeepLocalSockets = false"}
+{"tm": "2026-01-20 10:03:27.486", "lvl": "debug", "mod": "service", "msg": "firewallActualState, On"}
+{"tm": "2026-01-20 10:04:54.467", "lvl": "debug", "mod": "service", "msg": "sendConnectStatus: false"}
+{"tm": "2026-01-20 10:04:54.467", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState begin"}
+{"tm": "2026-01-20 10:04:54.467", "lvl": "debug", "mod": "service", "msg": "CalloutFilter::disable()"}
+{"tm": "2026-01-20 10:04:54.469", "lvl": "debug", "mod": "service", "msg": "HostnamesManager::disable(), begin"}
+{"tm": "2026-01-20 10:04:54.469", "lvl": "info", "mod": "service", "msg": "SplitTunnelServiceManager::stop()"}
+{"tm": "2026-01-20 10:04:54.497", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState end"}
+{"tm": "2026-01-20 10:04:54.917", "lvl": "debug", "mod": "service", "msg": "disableDnsLeaksProtection"}
+{"tm": "2026-01-20 10:04:54.929", "lvl": "debug", "mod": "service", "msg": "DnsFirewall::disable(), all filters deleted"}
+{"tm": "2026-01-20 10:04:54.930", "lvl": "debug", "mod": "service", "msg": "removeOpenVpnAdapter"}
+{"tm": "2026-01-20 10:04:54.930", "lvl": "info", "mod": "service", "msg": "removeDCOAdapter cmd = \"C:\\Program Files\\Windscribe\\tapctl.exe\" delete WindscribeOpenVPN"}
+{"tm": "2026-01-20 10:04:55.109", "lvl": "debug", "mod": "service", "msg": "Successfully deleted registry key value SYSTEM\\CurrentControlSet\\Services\\Dnscache\\Parameters - EnableAutoDoh: 0"}
+{"tm": "2026-01-20 10:04:55.109", "lvl": "debug", "mod": "service", "msg": "enableDohSettings, success = true"}
+{"tm": "2026-01-20 10:04:55.109", "lvl": "debug", "mod": "service", "msg": "removeWindscribeNetworkProfiles"}
+{"tm": "2026-01-20 10:04:55.110", "lvl": "debug", "mod": "service", "msg": "firewallActualState, On"}
+{"tm": "2026-01-20 10:04:55.148", "lvl": "info", "mod": "service", "msg": "FirewallFilter::offImpl(), all filters deleted"}
+{"tm": "2026-01-20 10:04:55.418", "lvl": "debug", "mod": "service", "msg": "firewallOn, AllowLocalTraffic=false, IsCustomConfig=false"}
+{"tm": "2026-01-20 10:04:55.418", "lvl": "debug", "mod": "service", "msg": "setIPv6EnabledInFirewall, true"}
+{"tm": "2026-01-20 10:04:55.425", "lvl": "debug", "mod": "service", "msg": "Ipv6Firewall::enableIPv6(), all filters deleted"}
+{"tm": "2026-01-20 10:04:55.457", "lvl": "debug", "mod": "service", "msg": "firewallActualState, On"}
+{"tm": "2026-01-20 10:04:55.475", "lvl": "info", "mod": "service", "msg": "FirewallFilter::offImpl(), all filters deleted"}
+{"tm": "2026-01-20 10:04:55.593", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState begin"}
+{"tm": "2026-01-20 10:04:55.593", "lvl": "debug", "mod": "service", "msg": "CalloutFilter::disable()"}
+{"tm": "2026-01-20 10:04:55.609", "lvl": "debug", "mod": "service", "msg": "HostnamesManager::disable(), begin"}
+{"tm": "2026-01-20 10:04:55.609", "lvl": "info", "mod": "service", "msg": "SplitTunnelServiceManager::stop()"}
+{"tm": "2026-01-20 10:04:55.642", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState end"}
+{"tm": "2026-01-20 10:04:55.642", "lvl": "debug", "mod": "service", "msg": "firewallOff"}
+{"tm": "2026-01-20 10:04:55.646", "lvl": "debug", "mod": "service", "msg": "sendConnectStatus: false"}
+{"tm": "2026-01-20 10:04:55.646", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState begin"}
+{"tm": "2026-01-20 10:04:55.646", "lvl": "debug", "mod": "service", "msg": "CalloutFilter::disable()"}
+{"tm": "2026-01-20 10:04:55.646", "lvl": "debug", "mod": "service", "msg": "HostnamesManager::disable(), begin"}
+{"tm": "2026-01-20 10:04:55.646", "lvl": "info", "mod": "service", "msg": "SplitTunnelServiceManager::stop()"}
+{"tm": "2026-01-20 10:04:55.665", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState end"}
+{"tm": "2026-01-20 12:50:24.264", "lvl": "debug", "mod": "service", "msg": "sendConnectStatus: false"}
+{"tm": "2026-01-20 12:50:24.265", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState begin"}
+{"tm": "2026-01-20 12:50:24.265", "lvl": "debug", "mod": "service", "msg": "CalloutFilter::disable()"}
+{"tm": "2026-01-20 12:50:24.267", "lvl": "debug", "mod": "service", "msg": "HostnamesManager::disable(), begin"}
+{"tm": "2026-01-20 12:50:24.267", "lvl": "info", "mod": "service", "msg": "SplitTunnelServiceManager::stop()"}
+{"tm": "2026-01-20 12:50:24.327", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState end"}
+{"tm": "2026-01-20 13:39:24.153", "lvl": "debug", "mod": "service", "msg": "sendConnectStatus: false"}
+{"tm": "2026-01-20 13:39:24.154", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState begin"}
+{"tm": "2026-01-20 13:39:24.154", "lvl": "debug", "mod": "service", "msg": "CalloutFilter::disable()"}
+{"tm": "2026-01-20 13:39:24.155", "lvl": "debug", "mod": "service", "msg": "HostnamesManager::disable(), begin"}
+{"tm": "2026-01-20 13:39:24.155", "lvl": "info", "mod": "service", "msg": "SplitTunnelServiceManager::stop()"}
+{"tm": "2026-01-20 13:39:24.177", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState end"}
+{"tm": "2026-01-20 13:39:24.179", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 13:39:24.297", "lvl": "debug", "mod": "service", "msg": "firewallActualState, Off"}
+{"tm": "2026-01-20 13:39:24.571", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState begin"}
+{"tm": "2026-01-20 13:39:24.571", "lvl": "debug", "mod": "service", "msg": "CalloutFilter::disable()"}
+{"tm": "2026-01-20 13:39:24.572", "lvl": "debug", "mod": "service", "msg": "HostnamesManager::disable(), begin"}
+{"tm": "2026-01-20 13:39:24.572", "lvl": "info", "mod": "service", "msg": "SplitTunnelServiceManager::stop()"}
+{"tm": "2026-01-20 13:39:24.593", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState end"}
+{"tm": "2026-01-20 13:39:24.593", "lvl": "debug", "mod": "service", "msg": "firewallOn, AllowLocalTraffic=false, IsCustomConfig=false"}
+{"tm": "2026-01-20 13:39:24.599", "lvl": "error", "mod": "service", "msg": "Property EnableAutoDoh not found for key SYSTEM\\CurrentControlSet\\Services\\Dnscache\\Parameters: 2"}
+{"tm": "2026-01-20 13:39:24.600", "lvl": "debug", "mod": "service", "msg": "Successfully set registry key SYSTEM\\CurrentControlSet\\Services\\Dnscache\\Parameters - EnableAutoDoh: 0"}
+{"tm": "2026-01-20 13:39:24.600", "lvl": "debug", "mod": "service", "msg": "Successfully set registry key SYSTEM\\CurrentControlSet\\Services\\Dnscache\\Parameters - EnableAutoDoh: 0"}
+{"tm": "2026-01-20 13:39:24.600", "lvl": "debug", "mod": "service", "msg": "disableDohSettings, success = true"}
+{"tm": "2026-01-20 13:39:24.601", "lvl": "debug", "mod": "service", "msg": "firewallActualState, On"}
+{"tm": "2026-01-20 13:39:24.641", "lvl": "info", "mod": "service", "msg": "FirewallFilter::offImpl(), all filters deleted"}
+{"tm": "2026-01-20 13:39:24.978", "lvl": "debug", "mod": "service", "msg": "firewallOn, AllowLocalTraffic=false, IsCustomConfig=false"}
+{"tm": "2026-01-20 13:39:24.980", "lvl": "debug", "mod": "service", "msg": "createOpenVpnAdapter: creating 'ovpn-dco' adapter"}
+{"tm": "2026-01-20 13:39:24.980", "lvl": "info", "mod": "service", "msg": "removeDCOAdapter cmd = \"C:\\Program Files\\Windscribe\\tapctl.exe\" delete WindscribeOpenVPN"}
+{"tm": "2026-01-20 13:39:25.039", "lvl": "error", "mod": "service", "msg": "removeDCOAdapter cmd failed: \"WindscribeOpenVPN\" adapter not found.\r\n"}
+{"tm": "2026-01-20 13:39:25.039", "lvl": "info", "mod": "service", "msg": "createDCOAdapter cmd = \"C:\\Program Files\\Windscribe\\tapctl.exe\" create --name WindscribeOpenVPN --hwid ovpn-dco"}
+{"tm": "2026-01-20 13:39:27.282", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 13:39:27.285", "lvl": "debug", "mod": "service", "msg": "enableDnsLeaksProtection"}
+{"tm": "2026-01-20 13:39:27.293", "lvl": "debug", "mod": "service", "msg": "Added DNS filter for 192.168.1.1"}
+{"tm": "2026-01-20 13:39:27.293", "lvl": "debug", "mod": "service", "msg": "Added DNS filter for 1.1.1.1"}
+{"tm": "2026-01-20 13:39:27.293", "lvl": "debug", "mod": "service", "msg": "Added DNS filter for 1.0.0.1"}
+{"tm": "2026-01-20 13:39:27.296", "lvl": "debug", "mod": "service", "msg": "Writing OpenVPN config"}
+{"tm": "2026-01-20 13:39:28.268", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 13:39:29.269", "lvl": "debug", "mod": "service", "msg": "getProcessesList"}
+{"tm": "2026-01-20 13:39:30.076", "lvl": "debug", "mod": "service", "msg": "executeSetMetric, cmd=C:\\WINDOWS\\system32\\netsh.exe int ipv4 set interface interface=\"WindscribeOpenVPN\" metric=4"}
+{"tm": "2026-01-20 13:39:30.255", "lvl": "debug", "mod": "service", "msg": "executeSetMetric, cmd=C:\\WINDOWS\\system32\\netsh.exe int ipv6 set interface interface=\"WindscribeOpenVPN\" metric=4"}
+{"tm": "2026-01-20 13:39:30.429", "lvl": "debug", "mod": "service", "msg": "setIPv6EnabledInFirewall, false"}
+{"tm": "2026-01-20 13:39:30.459", "lvl": "debug", "mod": "service", "msg": "sendConnectStatus: true"}
+{"tm": "2026-01-20 13:39:30.460", "lvl": "debug", "mod": "service", "msg": "Routes::addRoute(), destIp=10.255.255.0, maskIp=255.255.255.0, gatewayIp=10.133.196.1"}
+{"tm": "2026-01-20 13:39:30.460", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState begin"}
+{"tm": "2026-01-20 13:39:30.460", "lvl": "debug", "mod": "service", "msg": "CalloutFilter::disable()"}
+{"tm": "2026-01-20 13:39:30.461", "lvl": "debug", "mod": "service", "msg": "HostnamesManager::disable(), begin"}
+{"tm": "2026-01-20 13:39:30.461", "lvl": "info", "mod": "service", "msg": "SplitTunnelServiceManager::stop()"}
+{"tm": "2026-01-20 13:39:30.493", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState end"}
+{"tm": "2026-01-20 13:39:30.494", "lvl": "debug", "mod": "service", "msg": "firewallActualState, On"}
+{"tm": "2026-01-20 13:39:30.512", "lvl": "info", "mod": "service", "msg": "FirewallFilter::offImpl(), all filters deleted"}
+{"tm": "2026-01-20 13:39:30.667", "lvl": "debug", "mod": "service", "msg": "firewallOn, AllowLocalTraffic=false, IsCustomConfig=false"}
+{"tm": "2026-01-20 13:39:30.668", "lvl": "debug", "mod": "service", "msg": "closeAllTcpConnections, KeepLocalSockets = false"}
+{"tm": "2026-01-20 13:44:46.875", "lvl": "debug", "mod": "service", "msg": "sendConnectStatus: false"}
+{"tm": "2026-01-20 13:44:46.875", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState begin"}
+{"tm": "2026-01-20 13:44:46.875", "lvl": "debug", "mod": "service", "msg": "CalloutFilter::disable()"}
+{"tm": "2026-01-20 13:44:46.876", "lvl": "debug", "mod": "service", "msg": "HostnamesManager::disable(), begin"}
+{"tm": "2026-01-20 13:44:46.876", "lvl": "info", "mod": "service", "msg": "SplitTunnelServiceManager::stop()"}
+{"tm": "2026-01-20 13:44:46.907", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState end"}
+{"tm": "2026-01-20 13:44:47.357", "lvl": "debug", "mod": "service", "msg": "disableDnsLeaksProtection"}
+{"tm": "2026-01-20 13:44:47.366", "lvl": "debug", "mod": "service", "msg": "DnsFirewall::disable(), all filters deleted"}
+{"tm": "2026-01-20 13:44:47.368", "lvl": "debug", "mod": "service", "msg": "removeOpenVpnAdapter"}
+{"tm": "2026-01-20 13:44:47.368", "lvl": "info", "mod": "service", "msg": "removeDCOAdapter cmd = \"C:\\Program Files\\Windscribe\\tapctl.exe\" delete WindscribeOpenVPN"}
+{"tm": "2026-01-20 13:44:47.534", "lvl": "debug", "mod": "service", "msg": "Successfully deleted registry key value SYSTEM\\CurrentControlSet\\Services\\Dnscache\\Parameters - EnableAutoDoh: 0"}
+{"tm": "2026-01-20 13:44:47.534", "lvl": "debug", "mod": "service", "msg": "enableDohSettings, success = true"}
+{"tm": "2026-01-20 13:44:47.534", "lvl": "debug", "mod": "service", "msg": "firewallActualState, On"}
+{"tm": "2026-01-20 13:44:47.536", "lvl": "debug", "mod": "service", "msg": "removeWindscribeNetworkProfiles"}
+{"tm": "2026-01-20 13:44:47.565", "lvl": "info", "mod": "service", "msg": "FirewallFilter::offImpl(), all filters deleted"}
+{"tm": "2026-01-20 13:44:47.790", "lvl": "debug", "mod": "service", "msg": "firewallOn, AllowLocalTraffic=false, IsCustomConfig=false"}
+{"tm": "2026-01-20 13:44:47.790", "lvl": "debug", "mod": "service", "msg": "setIPv6EnabledInFirewall, true"}
+{"tm": "2026-01-20 13:44:47.797", "lvl": "debug", "mod": "service", "msg": "Ipv6Firewall::enableIPv6(), all filters deleted"}
+{"tm": "2026-01-20 13:44:47.826", "lvl": "debug", "mod": "service", "msg": "firewallActualState, On"}
+{"tm": "2026-01-20 13:44:47.839", "lvl": "info", "mod": "service", "msg": "FirewallFilter::offImpl(), all filters deleted"}
+{"tm": "2026-01-20 13:44:47.951", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState begin"}
+{"tm": "2026-01-20 13:44:47.951", "lvl": "debug", "mod": "service", "msg": "CalloutFilter::disable()"}
+{"tm": "2026-01-20 13:44:47.952", "lvl": "debug", "mod": "service", "msg": "HostnamesManager::disable(), begin"}
+{"tm": "2026-01-20 13:44:47.964", "lvl": "info", "mod": "service", "msg": "SplitTunnelServiceManager::stop()"}
+{"tm": "2026-01-20 13:44:47.991", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState end"}
+{"tm": "2026-01-20 13:44:47.991", "lvl": "debug", "mod": "service", "msg": "firewallOff"}
+{"tm": "2026-01-20 13:44:47.995", "lvl": "debug", "mod": "service", "msg": "sendConnectStatus: false"}
+{"tm": "2026-01-20 13:44:47.995", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState begin"}
+{"tm": "2026-01-20 13:44:47.995", "lvl": "debug", "mod": "service", "msg": "CalloutFilter::disable()"}
+{"tm": "2026-01-20 13:44:47.995", "lvl": "debug", "mod": "service", "msg": "HostnamesManager::disable(), begin"}
+{"tm": "2026-01-20 13:44:47.995", "lvl": "info", "mod": "service", "msg": "SplitTunnelServiceManager::stop()"}
+{"tm": "2026-01-20 13:44:48.014", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState end"}
+{"tm": "2026-01-20 13:44:49.914", "lvl": "debug", "mod": "service", "msg": "sendConnectStatus: false"}
+{"tm": "2026-01-20 13:44:49.914", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState begin"}
+{"tm": "2026-01-20 13:44:49.914", "lvl": "debug", "mod": "service", "msg": "CalloutFilter::disable()"}
+{"tm": "2026-01-20 13:44:49.915", "lvl": "debug", "mod": "service", "msg": "HostnamesManager::disable(), begin"}
+{"tm": "2026-01-20 13:44:49.915", "lvl": "info", "mod": "service", "msg": "SplitTunnelServiceManager::stop()"}
+{"tm": "2026-01-20 13:44:49.931", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState end"}
+{"tm": "2026-01-20 13:44:49.932", "lvl": "debug", "mod": "service", "msg": "setSplitTunnelingSettings, isEnabled: false, isExclude: false, isAllowLanTraffic: false, cntApps: 0"}
+{"tm": "2026-01-20 13:44:49.932", "lvl": "debug", "mod": "service", "msg": "HostnamesManager::setSettings(), end"}
+{"tm": "2026-01-20 13:44:49.932", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState begin"}
+{"tm": "2026-01-20 13:44:49.933", "lvl": "debug", "mod": "service", "msg": "CalloutFilter::disable()"}
+{"tm": "2026-01-20 13:44:49.933", "lvl": "debug", "mod": "service", "msg": "HostnamesManager::disable(), begin"}
+{"tm": "2026-01-20 13:44:49.933", "lvl": "info", "mod": "service", "msg": "SplitTunnelServiceManager::stop()"}
+{"tm": "2026-01-20 13:44:49.949", "lvl": "debug", "mod": "service", "msg": "SplitTunneling::updateState end"}
+{"tm": "2026-01-20 13:44:49.949", "lvl": "debug", "mod": "service", "msg": "removeWindscribeNetworkProfiles"}
+{"tm": "2026-01-20 13:44:49.950", "lvl": "debug", "mod": "service", "msg": "firewallActualState, Off"}
+{"tm": "2026-01-20 13:44:49.950", "lvl": "debug", "mod": "service", "msg": "setIPv6EnabledInFirewall, true"}
